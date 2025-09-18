@@ -91,3 +91,4 @@ __pycache__
 
 
 /scripts/etc/
+/scripts/test_api.py

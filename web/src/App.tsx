@@ -1,8 +1,24 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import './App.css'
 import type { EmotionEntry, LocationRecord, UserProfile } from './api'
 import { getDays, getEmotions, getLocations, getUserProfile, listUsers, listWeeks } from './api'
 import { CAMPUS_PLACES, matchPlaceByText } from './geo'
+
+// Animation types
+type AnimatedPosition = {
+  x: number
+  y: number
+  timestamp: number
+  location: string
+}
+
+type AnimationState = {
+  currentPosition: AnimatedPosition | null
+  targetPosition: AnimatedPosition | null
+  isAnimating: boolean
+  animationProgress: number
+  pathHistory: AnimatedPosition[]
+}
 
 function Select({ value, onChange, options, label }: { value: string | number; onChange: (v: string) => void; options: Array<{ value: string; label: string }>; label: string }) {
   const getLabelColor = (label: string) => {
@@ -58,6 +74,17 @@ function App() {
   const [isLoading, setIsLoading] = useState<boolean>(false)
   const [isTestingApi, setIsTestingApi] = useState<boolean>(false)
   const chatMessagesEndRef = useRef<HTMLDivElement>(null)
+  
+  // Animation state
+  const [animationState, setAnimationState] = useState<AnimationState>({
+    currentPosition: null,
+    targetPosition: null,
+    isAnimating: false,
+    animationProgress: 0,
+    pathHistory: []
+  })
+  const animationFrameRef = useRef<number | null>(null)
+  const previousTimeIndexRef = useRef<number>(-1)
 
   useEffect(() => {
     listUsers().then(setUsers).catch(console.error)
@@ -99,6 +126,85 @@ function App() {
   const weeklyEmotion = useMemo(() => emotions.find((e) => e.week === week)?.emotion, [emotions, week])
   const weeklyDescription = useMemo(() => emotions.find((e) => e.week === week)?.weekly_desc, [emotions, week])
 
+  // Animation helper functions
+  const createAnimatedPosition = useCallback((record: LocationRecord): AnimatedPosition | null => {
+    const place = matchPlaceByText(record.location_des || record.activity || record.location || undefined)
+    if (!place) return null
+    
+    return {
+      x: Math.max(0.05, Math.min(0.95, place.x)),
+      y: Math.max(0.05, Math.min(0.95, place.y)),
+      timestamp: new Date(record.time).getTime(),
+      location: place.label
+    }
+  }, [])
+
+  const interpolatePosition = useCallback((from: AnimatedPosition, to: AnimatedPosition, progress: number): AnimatedPosition => {
+    const easedProgress = 1 - Math.pow(1 - progress, 3) // Ease-out cubic
+    return {
+      x: from.x + (to.x - from.x) * easedProgress,
+      y: from.y + (to.y - from.y) * easedProgress,
+      timestamp: from.timestamp + (to.timestamp - from.timestamp) * progress,
+      location: progress > 0.5 ? to.location : from.location
+    }
+  }, [])
+
+  const animateToPosition = useCallback((targetPos: AnimatedPosition) => {
+    setAnimationState(prev => {
+      const currentPos = prev.currentPosition
+      if (!currentPos) {
+        return {
+          ...prev,
+          currentPosition: targetPos,
+          targetPosition: null,
+          isAnimating: false,
+          animationProgress: 1,
+          pathHistory: [...prev.pathHistory, targetPos]
+        }
+      }
+
+      return {
+        ...prev,
+        targetPosition: targetPos,
+        isAnimating: true,
+        animationProgress: 0
+      }
+    })
+
+    const startTime = Date.now()
+    const duration = 1500 // 1.5 seconds animation
+
+    const animate = () => {
+      const elapsed = Date.now() - startTime
+      const progress = Math.min(elapsed / duration, 1)
+
+      if (progress >= 1) {
+        // Animation complete
+        setAnimationState(prev => ({
+          ...prev,
+          currentPosition: targetPos,
+          targetPosition: null,
+          isAnimating: false,
+          animationProgress: 1,
+          pathHistory: [...prev.pathHistory, targetPos]
+        }))
+        animationFrameRef.current = null
+      } else {
+        // Continue animation
+        setAnimationState(prev => ({
+          ...prev,
+          animationProgress: progress
+        }))
+        animationFrameRef.current = requestAnimationFrame(animate)
+      }
+    }
+
+    if (animationFrameRef.current) {
+      cancelAnimationFrame(animationFrameRef.current)
+    }
+    animationFrameRef.current = requestAnimationFrame(animate)
+  }, [])
+
   // computed time scrub window
   const timeLabels = useMemo(() => locations.map(r => new Date(r.time).toLocaleTimeString()), [locations])
   const visibleLocations = useMemo(() => {
@@ -115,6 +221,19 @@ function App() {
       return false
     })
   }, [locations, timeIndex, layer])
+
+  // Get current animated position
+  const currentDisplayPosition = useMemo(() => {
+    const { currentPosition, targetPosition, isAnimating, animationProgress } = animationState
+    
+    if (!currentPosition) return null
+    
+    if (isAnimating && targetPosition) {
+      return interpolatePosition(currentPosition, targetPosition, animationProgress)
+    }
+    
+    return currentPosition
+  }, [animationState, interpolatePosition])
 
   // cluster by place within current selection
   const clustered = useMemo(() => {
@@ -138,6 +257,68 @@ function App() {
   useEffect(() => {
     scrollToBottom()
   }, [chatMessages])
+
+  // Handle time index changes and trigger animations
+  useEffect(() => {
+    if (locations.length === 0 || timeIndex < 0) {
+      // Reset animation state when no data
+      setAnimationState({
+        currentPosition: null,
+        targetPosition: null,
+        isAnimating: false,
+        animationProgress: 0,
+        pathHistory: []
+      })
+      previousTimeIndexRef.current = -1
+      return
+    }
+
+    const currentRecord = locations[timeIndex]
+    if (!currentRecord) return
+
+    const newPosition = createAnimatedPosition(currentRecord)
+    if (!newPosition) return
+
+    const previousIndex = previousTimeIndexRef.current
+    
+    if (previousIndex === -1) {
+      // First time or reset - no animation, just set position
+      setAnimationState({
+        currentPosition: newPosition,
+        targetPosition: null,
+        isAnimating: false,
+        animationProgress: 1,
+        pathHistory: [newPosition]
+      })
+    } else {
+      // Build path history up to current time index
+      const pathHistory: AnimatedPosition[] = []
+      for (let i = 0; i <= timeIndex; i++) {
+        const pos = createAnimatedPosition(locations[i])
+        if (pos) pathHistory.push(pos)
+      }
+
+      if (timeIndex !== previousIndex) {
+        // Time changed - animate to new position
+        setAnimationState(prev => ({
+          ...prev,
+          pathHistory
+        }))
+        animateToPosition(newPosition)
+      }
+    }
+
+    previousTimeIndexRef.current = timeIndex
+  }, [locations, timeIndex, animateToPosition, createAnimatedPosition])
+
+  // Cleanup animation on unmount
+  useEffect(() => {
+    return () => {
+      if (animationFrameRef.current) {
+        cancelAnimationFrame(animationFrameRef.current)
+      }
+    }
+  }, [])
 
   const sendChatMessage = async () => {
     if (!currentMessage.trim() || !geminiApiKey.trim() || !userProfile || !weeklyDescription) return
@@ -244,7 +425,7 @@ function App() {
         fontWeight: 'bold',
         textAlign: 'center',
         margin: '0 0 20px 0'
-      }}>🎓 Campus Life Dashboard</h2>
+      }}>🎓 DarthMouth StudentLife Campus Dashboard</h2>
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
         <Select value={user} onChange={(v) => setUser(v)} options={users.map((u) => ({ value: u, label: u }))} label="Student" />
         <Select value={week} onChange={(v) => setWeek(Number(v))} options={weeks.map((w) => ({ value: String(w), label: `Week ${w}` }))} label="Week" />
@@ -341,7 +522,125 @@ function App() {
               maxWidth: '100%'
             }} 
           />
-          {layer !== 'Emotion' && clustered.length > 0 && clustered.map((c, idx) => {
+          {/* Path visualization */}
+          {layer !== 'Emotion' && animationState.pathHistory.length > 1 && (
+            <svg
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                pointerEvents: 'none',
+                zIndex: 5
+              }}
+              viewBox="0 0 1 1"
+              preserveAspectRatio="none"
+            >
+              {/* Draw path lines */}
+              {animationState.pathHistory.map((pos, idx) => {
+                if (idx === 0) return null
+                const prevPos = animationState.pathHistory[idx - 1]
+                return (
+                  <line
+                    key={`path-${idx}`}
+                    x1={prevPos.x}
+                    y1={prevPos.y}
+                    x2={pos.x}
+                    y2={pos.y}
+                    stroke="#3b82f6"
+                    strokeWidth="0.003"
+                    strokeDasharray="0.01 0.005"
+                    opacity={0.8}
+                  />
+                )
+              })}
+              
+              {/* Draw path dots */}
+              {animationState.pathHistory.map((pos, idx) => (
+                <circle
+                  key={`dot-${idx}`}
+                  cx={pos.x}
+                  cy={pos.y}
+                  r="0.008"
+                  fill={idx === animationState.pathHistory.length - 1 ? "#ef4444" : "#3b82f6"}
+                  opacity={idx === animationState.pathHistory.length - 1 ? 1 : 0.6}
+                />
+              ))}
+            </svg>
+          )}
+          
+          {/* Animated student position */}
+          {layer !== 'Emotion' && currentDisplayPosition && (
+            <div 
+              title={`${currentDisplayPosition.location} - ${new Date(currentDisplayPosition.timestamp).toLocaleTimeString()}`} 
+              style={{ 
+                position: 'absolute', 
+                left: `${currentDisplayPosition.x * 100}%`, 
+                top: `${currentDisplayPosition.y * 100}%`, 
+                transform: 'translate(-50%, -50%)',
+                zIndex: 10,
+                pointerEvents: 'auto',
+                width: 'fit-content',
+                height: 'fit-content',
+                transition: animationState.isAnimating ? 'none' : 'all 0.3s ease'
+              }}
+            >
+              <img 
+                src="/student.png" 
+                alt="Student" 
+                style={{
+                  width: 50,
+                  height: 50,
+                  borderRadius: '50%',
+                  border: `3px solid ${animationState.isAnimating ? '#f59e0b' : '#d97706'}`,
+                  boxShadow: animationState.isAnimating ? 
+                    '0 4px 8px rgba(245, 158, 11, 0.4), 0 0 20px rgba(245, 158, 11, 0.3)' : 
+                    '0 2px 4px rgba(0,0,0,0.2)',
+                  backgroundColor: 'white',
+                  display: 'block',
+                  transform: animationState.isAnimating ? 'scale(1.1)' : 'scale(1)',
+                  transition: 'transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease'
+                }} 
+              />
+              
+              {/* Animation indicator */}
+              {animationState.isAnimating && (
+                <div style={{
+                  position: 'absolute',
+                  top: -8,
+                  left: -8,
+                  width: 66,
+                  height: 66,
+                  borderRadius: '50%',
+                  border: '2px solid #f59e0b',
+                  opacity: 0.6,
+                  animation: 'pulse 1s infinite'
+                }} />
+              )}
+              
+              {/* Location label */}
+              <div style={{
+                position: 'absolute',
+                top: -30,
+                left: '50%',
+                transform: 'translateX(-50%)',
+                backgroundColor: animationState.isAnimating ? '#f59e0b' : '#374151',
+                color: 'white',
+                padding: '2px 6px',
+                borderRadius: 4,
+                fontSize: 10,
+                fontWeight: 'bold',
+                whiteSpace: 'nowrap',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.2)'
+              }}>
+                {currentDisplayPosition.location}
+              </div>
+            </div>
+          )}
+          
+          {/* Static clustered positions (fallback when no animation data) */}
+          {layer !== 'Emotion' && !currentDisplayPosition && clustered.length > 0 && clustered.map((c, idx) => {
             // Ensure positions are within campus boundaries
             const clampedX = Math.max(0.05, Math.min(0.95, c.x));
             const clampedY = Math.max(0.05, Math.min(0.95, c.y));
@@ -407,10 +706,10 @@ function App() {
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text',
                 fontWeight: 'bold'
-              }}>🗺️ Map Legend</h3>
+              }}>🗺️ Campus Locations:</h3>
               <div style={{ display: 'grid', gridTemplateColumns: '24px 1fr', rowGap: 6, columnGap: 8, marginTop: 8 }}>
                 <img src="/student.png" alt="Student" style={{ width: 20, height: 20, borderRadius: '50%', border: '1px solid #b38f00' }} />
-                <span style={{ fontSize: 12 }}>Student/NPC position</span>
+                <span style={{ fontSize: 12, color: '#b38f00' }}>Student position</span>
               </div>
               <div style={{ marginTop: 12 }}>
                 <h4 style={{ 
@@ -418,13 +717,13 @@ function App() {
                   fontSize: 14,
                   color: '#7c3aed',
                   fontWeight: 'bold'
-                }}>Campus Locations:</h4>
+                }}></h4>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 4, fontSize: 11 }}>
                   {CAMPUS_PLACES.map((p) => {
                     const getLocationEmoji = (key: string) => {
                       const emojis = {
                         'study building': '📚',
-                        'alumni gym': '🏋️',
+                        'alumni gym': '👟',
                         'laboratory': '🔬',
                         'community club': '🏛️',
                         'library': '📖',
@@ -561,11 +860,12 @@ function App() {
                               }} />
                             </div>
                             <span style={{ 
-                              fontSize: 12, 
+                              fontSize: 15, 
                               minWidth: 25,
+
                               fontWeight: 'bold',
                               color: value >= 70 ? '#10b981' : value >= 40 ? '#f59e0b' : '#ef4444'
-                            }}>{value}</span>
+                            }}>{Number(value).toFixed(2)}</span>
                           </div>
                         )
                       })}

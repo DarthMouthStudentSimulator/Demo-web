@@ -6,8 +6,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from google.genai import types
-from google import genai
+# Removed google.genai imports - now using direct HTTP requests
 
 import pandas as pd
 import requests
@@ -27,9 +26,9 @@ WORKSPACE_ROOT = Path(__file__).resolve().parents[1]
 
 class ChatRequest(BaseModel):
     message: str
-    apiKey: Optional[str] = None
+    apiKey: str
     studentId: str
-    bigFive: Dict[str, int]
+    bigFive: Dict[str, float]
     weeklyDesc: str
     week: int
 
@@ -374,15 +373,16 @@ def get_week_summary(user_id: str, week: int) -> Dict[str, Any]:
 @app.post("/api/chat")
 def chat_with_student(request: ChatRequest) -> Dict[str, Any]:
     try:
-        client = genai.Client(api_key = request.apiKey)
+        print(f"DEBUG: Received chat request for student {request.studentId}, week {request.week}")
+        print(f"DEBUG: Big Five data: {request.bigFive}")
+        print(f"DEBUG: API Key length: {len(request.apiKey) if request.apiKey else 0}")
         # Create personality description
         personality_traits = []
         for trait, value in request.bigFive.items():
             level = "high" if value >= 70 else "moderate" if value >= 40 else "low"
-            personality_traits.append(f"{trait}: {level} ({value}/100)")
+            personality_traits.append(f"{trait}: {level} ({value:.1f}/100)")
 
         personality_desc = ", ".join(personality_traits)
-
         
         # Create system prompt
         system_prompt = f"""You are {request.studentId.upper()}, a college student. Respond as this student would, based on your personality and recent experiences.
@@ -402,93 +402,133 @@ Keep responses conversational (2-3 sentences usually)
 Show your emotions and thoughts based on your personality and week's events
 """
 
-        contents = [
-            types.Content(
-                role="user",
-                parts=[types.Part.from_text(text=request.message)]
-            )
-        ]
+        # Prepare request data for Gemini API
+        request_data = {
+            "contents": [
+                {
+                    "parts": [
+                        {
+                            "text": request.message
+                        }
+                    ]
+                }
+            ],
+            "systemInstruction": {
+                "parts": [
+                    {
+                        "text": system_prompt
+                    }
+                ]
+            },
+            "generationConfig": {
+                "temperature": 0.9,
+                "topP": 1.0,
+                "topK": 1,
+                "maxOutputTokens": 2048
+            }
+        }
 
-        # Call Gemini API correctly
-        response = client.models.generate_content(
-            model="gemini-2.0-flash",
-            contents=contents,
-            config=types.GenerateContentConfig(
-                system_instruction=system_prompt,
-                temperature=0.9,
-                top_p=1.0,
-                top_k=1,
-                max_output_tokens=2048
-            )
-        )
+        # Make HTTP request to Gemini API
+        gemini_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+        headers = {
+            'Content-Type': 'application/json',
+            'X-goog-api-key': request.apiKey
+        }
+        
+        response = requests.post(gemini_url, headers=headers, json=request_data)
+        
+        if not response.ok:
+            raise HTTPException(status_code=response.status_code, detail=f"Gemini API error: {response.text}")
+        
+        response_data = response.json()
+        
+        # Extract the generated text from the response
+        if 'candidates' in response_data and len(response_data['candidates']) > 0:
+            if 'content' in response_data['candidates'][0] and 'parts' in response_data['candidates'][0]['content']:
+                generated_text = response_data['candidates'][0]['content']['parts'][0]['text']
+                return {"response": generated_text}
+        
+        raise HTTPException(status_code=500, detail="Unexpected response format from Gemini API")
 
-        # # Format the contents properly
-        # contents = [
-        #     types.Content(
-        #         role="user",
-        #         parts=[types.Part.from_text(text=request.message)]
-        #     )
-        # ]
-
-        # # Call Gemini API correctly
-        # response = client.models.generate_content(
-        #     model="gemini-2.0-flash",
-        #     contents=contents,
-        #     config=types.GenerateContentConfig(
-        #         system_instruction=system_prompt,
-        #         temperature=0.9,
-        #         top_p=1.0,
-        #         top_k=1,
-        #         max_output_tokens=2048
-        #     )
-        # )
-
-        # Extract result
-        return {"response": response.text}
-
+    except requests.RequestException as e:
+        raise HTTPException(status_code=500, detail=f"Network error: {str(e)}")
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Chat error: {str(e)}")
 
     
 @app.get("/api/test-gemini")
 def test_gemini_api(api_key: Optional[str] = None) -> Dict[str, Any]:
-    """Test endpoint to verify Gemini API connectivity using the same client as /api/chat"""
+    """Test endpoint to verify Gemini API connectivity using direct HTTP requests"""
     try:
-        # Optional: allow override of API key (mostly for debugging)
-        test_api_key = api_key
-        if not test_api_key:
+        if not api_key:
             return {
                 "success": False,
-                "error": "API key not provided. Please set GEMINI_API_KEY environment variable or provide api_key parameter."
+                "error": "API key not provided. Please provide api_key parameter."
             }
 
-        system_prompt = "You are a system tester. Only respond with: API connection successful."
-        contents = [
-            types.Content(
-                role="user",
-                parts=[types.Part.from_text(text="Say the exact phrase: API connection successful")]
-            )
-        ]
-
-        # Call Gemini API via client (same as main code)
-        response = client.models.generate_content(
-            model="gemini-2.0-flash",
-            contents=contents,
-            config=types.GenerateContentConfig(
-                system_instruction=system_prompt,
-                temperature=0.1,
-                top_p=0.95,
-                top_k=2,
-                max_output_tokens=50
-            )
-        )
-
-        return {
-            "success": True,
-            "response": response.text,
-            "message": "Gemini API connection successful!"
+        # Prepare test request data
+        request_data = {
+            "contents": [
+                {
+                    "parts": [
+                        {
+                            "text": "Say the exact phrase: API connection successful"
+                        }
+                    ]
+                }
+            ],
+            "systemInstruction": {
+                "parts": [
+                    {
+                        "text": "You are a system tester. Only respond with: API connection successful."
+                    }
+                ]
+            },
+            "generationConfig": {
+                "temperature": 0.1,
+                "topP": 0.95,
+                "topK": 2,
+                "maxOutputTokens": 50
+            }
         }
 
+        # Make HTTP request to Gemini API
+        gemini_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+        headers = {
+            'Content-Type': 'application/json',
+            'X-goog-api-key': api_key
+        }
+        
+        response = requests.post(gemini_url, headers=headers, json=request_data)
+        
+        if not response.ok:
+            return {
+                "success": False,
+                "error": f"Gemini API error: {response.status_code} - {response.text}"
+            }
+        
+        response_data = response.json()
+        
+        # Extract the generated text from the response
+        if 'candidates' in response_data and len(response_data['candidates']) > 0:
+            if 'content' in response_data['candidates'][0] and 'parts' in response_data['candidates'][0]['content']:
+                generated_text = response_data['candidates'][0]['content']['parts'][0]['text']
+                return {
+                    "success": True,
+                    "response": generated_text,
+                    "message": "Gemini API connection successful!"
+                }
+        
+        return {
+            "success": False,
+            "error": "Unexpected response format from Gemini API"
+        }
+
+    except requests.RequestException as e:
+        return {
+            "success": False,
+            "error": f"Network error: {str(e)}"
+        }
     except Exception as e:
         return {
             "success": False,
