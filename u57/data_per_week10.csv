@@ -1,0 +1,55 @@
+times, activity inference,location,location_des
+2013-05-29 04:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science building at Dartmouth College
+2013-05-29 05:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is a Computer Science academic building
+2013-05-29 06:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-05-29 07:00:00,1,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-05-29 08:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America","Sudikoff Hall is the primary academic building for Computer Science at Dartmouth College, housing classrooms and labs"
+2013-05-29 09:00:00,3,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science building at Dartmouth College
+2013-05-29 10:00:00,1,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America","This location is Sudikoff Hall, the primary building for the Computer Science Department at Dartmouth College"
+2013-05-29 11:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",It is the Computer Science building at Dartmouth College
+2013-05-29 12:00:00,2,"Anonymous Hall, 64 College Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-29 13:00:00,0,"78 College Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-29 14:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-29 15:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-29 16:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-29 17:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-29 18:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-29 19:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",The Department of Computer Science
+2013-05-29 20:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science academic building at Dartmouth College
+2013-05-29 21:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-05-29 22:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-29 23:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-30 00:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-30 01:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-30 02:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-30 03:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-30 04:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America","Sudikoff Hall is a computer science academic building at Dartmouth College, primarily housing labs"
+2013-05-30 05:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science academic building at Dartmouth College
+2013-05-30 06:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is a building at Dartmouth College that primarily houses the Computer Science Department
+2013-05-30 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-05-30 16:00:00,1,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-30 17:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the main building for the Computer Science Department at Dartmouth College
+2013-05-30 18:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall at Dartmouth College is primarily a computer science research lab building
+2013-05-30 19:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science academic building at Dartmouth College
+2013-05-30 20:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",It is the Computer Science building at Dartmouth College
+2013-05-30 21:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the main building for the Computer Science Department at Dartmouth College
+2013-05-30 22:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science department building at Dartmouth College
+2013-05-30 23:00:00,3,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-31 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-31 01:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-31 02:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",This is the Computer Science Department at Dartmouth College
+2013-05-31 03:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",This is the Computer Science Department at Dartmouth College
+2013-05-31 04:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the main building for the Computer Science Department at Dartmouth College
+2013-05-31 05:00:00,3,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science academic building at Dartmouth College
+2013-05-31 06:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science academic building at Dartmouth College
+2013-05-31 08:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",It is a Computer Science lab at Dartmouth College
+2013-05-31 14:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-31 15:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-31 17:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-31 19:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-31 20:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-31 21:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-05-31 23:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-06-01 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-06-01 01:00:00,0,"Parker House, 7 Maynard Street, Hanover, NH 03755, United States of America",Parker House is a dormitory at Dartmouth College
+2013-06-01 03:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College

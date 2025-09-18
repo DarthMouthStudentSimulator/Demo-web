@@ -1,0 +1,80 @@
+times, activity inference,location,location_des
+2013-04-24 17:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-24 18:00:00,3,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",It is the Computer Science building at Dartmouth College
+2013-04-24 19:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America","At Dartmouth College, Sudikoff Hall is the Computer Science Department building"
+2013-04-24 20:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-24 21:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-24 22:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-04-24 23:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 03:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 04:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 05:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 06:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 07:00:00,1,"Chi Heorot, 11 East Wheelock Street, Hanover, NH 03755, United States of America",It is a fraternity house at Dartmouth College
+2013-04-25 08:00:00,0,"Plainfield Road, Lebanon, NH 03784, United States of America","Plainfield Road is a road in Lebanon, NH, not a specific location or building on the campus of Dartmouth College in Hanover, NH"
+2013-04-25 09:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 10:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 11:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 12:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 13:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 14:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 16:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 17:00:00,1,"78 College Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-04-25 18:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 20:00:00,2,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is a Computer Science building containing classrooms and labs
+2013-04-25 21:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-25 22:00:00,2,"78 College Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-04-25 23:00:00,2,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 04:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 05:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 06:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 07:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 09:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 10:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 11:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 12:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 13:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 14:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 16:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 17:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 20:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 21:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 22:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-26 23:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 04:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 05:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 06:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 07:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 09:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 10:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 11:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 12:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 13:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 14:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 16:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 17:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 20:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 21:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 22:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-27 23:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse

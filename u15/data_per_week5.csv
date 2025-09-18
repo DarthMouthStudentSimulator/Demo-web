@@ -1,0 +1,56 @@
+times, activity inference,location,location_des
+2013-04-25 16:00:00,0,"Dewey Field Road, Hanover, NH 03755, United States of America",Leverone Field House
+2013-04-25 17:00:00,1,"Alumni Gymnasium, 16 East Wheelock Street, Hanover, NH 03755, United States of America",Gymnasium
+2013-04-25 18:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-25 19:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-25 20:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-25 21:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-25 22:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-28 18:00:00,1,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-28 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-28 20:00:00,3,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-28 21:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-28 22:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-04-28 23:00:00,1,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",A computer science lab building
+2013-04-29 00:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America","At Dartmouth College, Sudikoff Hall is the Computer Science Department building"
+2013-04-29 01:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America","At Dartmouth College, Sudikoff Hall is the Computer Science Department building"
+2013-04-29 02:00:00,3,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the primary building for the Computer Science Department at Dartmouth College
+2013-04-29 03:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the primary building for the Computer Science Department at Dartmouth College
+2013-04-29 04:00:00,3,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the primary building for the Computer Science Department at Dartmouth College
+2013-04-29 05:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-04-29 06:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-29 07:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-29 08:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-29 09:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-29 10:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-29 11:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-29 12:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-29 13:00:00,0,"Reed Hall, 15 College Street, Hanover, NH 03755, United States of America",Classroom
+2013-04-29 14:00:00,1,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",It is a Computer Science academic building primarily housing labs and classrooms
+2013-04-29 15:00:00,0,"Dewey Field Road, Hanover, NH 03755, United States of America",Leverone Field House
+2013-04-29 16:00:00,0,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America",It is a laboratory and classroom building
+2013-04-29 17:00:00,1,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-29 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-29 19:00:00,0,"Davidson Pottery Studio, 2 Ledyard Lane, Lewiston, Norwich, VT 05055, United States of America","Davidson Pottery Studio is not a location within Dartmouth College. It is a private business located in Lewiston, Vermont, separate from the university's campus in Hanover, New Hampshire"
+2013-04-29 20:00:00,0,"Davidson Pottery Studio, 2 Ledyard Lane, Lewiston, Norwich, VT 05055, United States of America","Davidson Pottery Studio is not a location within Dartmouth College. It is a private business located in Lewiston, Vermont, separate from the university's campus in Hanover, New Hampshire"
+2013-04-29 21:00:00,0,"Davidson Pottery Studio, 2 Ledyard Lane, Lewiston, Norwich, VT 05055, United States of America","Davidson Pottery Studio is not a location within Dartmouth College. It is a private business located in Lewiston, Vermont, separate from the university's campus in Hanover, New Hampshire"
+2013-04-29 22:00:00,0,"Davidson Pottery Studio, 2 Ledyard Lane, Lewiston, Norwich, VT 05055, United States of America","Davidson Pottery Studio is not a location within Dartmouth College. It is a private business located in Lewiston, Vermont, separate from the university's campus in Hanover, New Hampshire"
+2013-04-29 23:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Computer Science Lab
+2013-04-30 00:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America","Sudikoff Hall is the primary academic building for Computer Science at Dartmouth College, housing classrooms and labs"
+2013-04-30 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-30 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-30 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-30 04:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-30 05:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-30 06:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-30 07:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-30 08:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-30 09:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-30 10:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-30 11:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-30 12:00:00,0,"Davidson Pottery Studio, 2 Ledyard Lane, Lewiston, Norwich, VT 05055, United States of America","Davidson Pottery Studio is not a location within Dartmouth College. It is a private business located in Lewiston, Vermont, separate from the university's campus in Hanover, New Hampshire"
+2013-04-30 13:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-30 14:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-04-30 15:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-30 16:00:00,0,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America",It is a laboratory and classroom building
+2013-04-30 17:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse

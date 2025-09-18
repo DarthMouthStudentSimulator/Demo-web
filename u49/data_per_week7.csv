@@ -1,0 +1,71 @@
+times, activity inference,location,location_des
+2013-05-09 21:00:00,0,"Steele Hall, 39 College Street, Hanover, NH 03755, United States of America",Steele Hall is the home of the Department of Computer Science at Dartmouth College
+2013-05-11 16:00:00,0,,
+2013-05-12 08:00:00,0,,
+2013-05-12 09:00:00,0,,
+2013-05-12 10:00:00,0,,
+2013-05-12 11:00:00,0,,
+2013-05-12 12:00:00,0,,
+2013-05-12 13:00:00,0,,
+2013-05-12 14:00:00,0,,
+2013-05-12 15:00:00,0,,
+2013-05-12 19:00:00,0,,
+2013-05-12 20:00:00,0,,
+2013-05-12 21:00:00,3,,
+2013-05-12 22:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-12 23:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 04:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 05:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 09:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 10:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 11:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 12:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 14:00:00,0,"Reed Hall, 15 College Street, Hanover, NH 03755, United States of America",Classroom
+2013-05-13 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 20:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 22:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 23:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-14 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-14 01:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the main building for the Computer Science Department at Dartmouth College
+2013-05-14 02:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall at Dartmouth College is primarily a computer science lab building
+2013-05-14 03:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science academic building at Dartmouth College
+2013-05-14 04:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the main building for the Computer Science Department at Dartmouth College
+2013-05-14 05:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the main building for the Computer Science Department at Dartmouth College
+2013-05-14 06:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the main building for the Computer Science Department at Dartmouth College
+2013-05-14 07:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the main building for the Computer Science Department at Dartmouth College
+2013-05-14 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-14 09:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-14 12:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-14 13:00:00,1,"Reed Hall, 15 College Street, Hanover, NH 03755, United States of America",Classroom
+2013-05-14 14:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-14 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-14 16:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-05-14 17:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-05-14 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-14 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-14 20:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",It is a Computer Science lab at Dartmouth College
+2013-05-14 21:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science building at Dartmouth College
+2013-05-14 22:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-05-14 23:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science building at Dartmouth College
+2013-05-15 00:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-05-15 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 04:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 05:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 06:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 07:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 09:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-15 10:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 11:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 12:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 13:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 14:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-05-15 15:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-05-15 16:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"

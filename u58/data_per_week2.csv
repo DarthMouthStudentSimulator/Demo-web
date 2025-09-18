@@ -1,0 +1,165 @@
+times, activity inference,location,location_des
+2013-04-03 04:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-03 05:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",North Park Street is a road that runs along the northern edge of the Dartmouth College campus
+2013-04-03 06:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Dartmouth College Admissions Office
+2013-04-03 07:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",North Park Street
+2013-04-03 08:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",North Park Street is a road that borders the northern edge of the Dartmouth College campus
+2013-04-03 09:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-03 10:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",North Park Street
+2013-04-03 11:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Admissions Office
+2013-04-03 12:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Dartmouth College Admissions Office
+2013-04-03 13:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Kresge Physical Sciences Library
+2013-04-03 14:00:00,0,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America","It is the Class of 1978 Life Sciences Center, an academic building primarily housing laboratories and classrooms for life sciences"
+2013-04-03 15:00:00,0,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America",It is a research laboratory building
+2013-04-03 16:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Dartmouth College Office of Admissions
+2013-04-03 17:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-03 18:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Hopkins Center for the Arts
+2013-04-03 19:00:00,0,"10 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-03 20:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-03 21:00:00,0,"10 North Park Street, Hanover, NH 03755, United States of America",The Dartmouth College Office of Admissions
+2013-04-03 22:00:00,0,"10 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-03 23:00:00,1,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall at Dartmouth College is the primary building for the Computer Science Department
+2013-04-04 00:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall at Dartmouth College is the primary building for the Computer Science Department
+2013-04-04 01:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is a computer science lab building at Dartmouth College
+2013-04-04 02:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-04-04 03:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Kemeny Hall
+2013-04-04 04:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-04 05:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-04 06:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Admissions Office
+2013-04-04 07:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-04 08:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Hopkins Center for the Arts
+2013-04-04 09:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Spaulding Auditorium
+2013-04-04 10:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","McNutt Hall, an academic building"
+2013-04-04 11:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-04 15:00:00,3,"North Road, Sutton, Merrimack County, NH, United States of America","That address is in Sutton, NH, which is not where Dartmouth College is located. Therefore, it is not a place or room within Dartmouth College"
+2013-04-04 16:00:00,3,"Two Rivers Conservation Area, I 89, Lebanon, NH 03784, United States of America","This location is outside Dartmouth University's campus. It is a conservation area in Lebanon, NH"
+2013-04-04 17:00:00,0,"North Main Street, East Wilder, Lebanon, NH 05088, United States of America","This address is not on the Dartmouth College campus; it is in Lebanon, NH"
+2013-04-04 18:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-04 19:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-04 20:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-04 21:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Hopkins Center for the Arts
+2013-04-04 22:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",This is a road that borders the northern edge of the Dartmouth College campus
+2013-04-05 02:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-05 03:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hood Museum of Art
+2013-04-05 04:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Hopkins Center for the Arts
+2013-04-05 05:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-05 06:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-05 07:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-05 08:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-05 09:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Baker-Berry Library
+2013-04-05 10:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the location of the Baker-Berry Library at Dartmouth College
+2013-04-05 11:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-05 12:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-05 13:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-05 14:00:00,0,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America","It is the Class of 1978 Life Sciences Center, a building primarily housing labs and classrooms for life sciences at Dartmouth College"
+2013-04-05 15:00:00,1,"24 North Park Street, Hanover, NH 03755, United States of America",This is the Dartmouth College Office of Admissions
+2013-04-05 16:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-05 17:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Tower Room within Baker-Berry Library
+2013-04-05 18:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-05 19:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Admissions Office
+2013-04-05 20:00:00,0,"North Park Street, Hanover, NH 03755, United States of America","The Baker-Berry Library, the main library of Dartmouth College"
+2013-04-05 21:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-05 22:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Berry Library
+2013-04-05 23:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-06 00:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-06 01:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",McNutt Hall
+2013-04-06 02:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-04-06 03:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-06 04:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-06 05:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-06 06:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-06 07:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",North Park Street is a road that borders the northern edge of the Dartmouth College campus
+2013-04-06 08:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-06 09:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Hopkins Center for the Arts
+2013-04-06 10:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-06 11:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-06 12:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-06 13:00:00,0,"North Park Street, Hanover, NH 03755, United States of America","Baker-Berry Library, the main library"
+2013-04-06 14:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-06 15:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",The Dartmouth College Admissions Office
+2013-04-06 16:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-06 17:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",The Dartmouth College Admissions Office
+2013-04-06 18:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-06 19:00:00,0,"10 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-06 20:00:00,0,"Two Rivers Conservation Area, I 89, Lebanon, NH 03784, United States of America","This location, Two Rivers Conservation Area, is in Lebanon, NH, and is not on the Dartmouth College campus. It is a conservation area, not a specific building or room within the university"
+2013-04-06 21:00:00,0,"Two Rivers Conservation Area, I 89, Lebanon, NH 03784, United States of America","Two Rivers Conservation Area is not located within Dartmouth College's campus. It is a conservation area in Lebanon, NH, a neighboring town.
+
+If it were on campus, it would be most analogous to a park"
+2013-04-06 22:00:00,0,"63 South Main Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-06 23:00:00,0,"5 Prospect Street, Hanover, NH 03755, United States of America",McLane Hall
+2013-04-07 00:00:00,0,"5 Prospect Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-04-07 01:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",North Park Street
+2013-04-07 02:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",North Park Street is a road bordering the northern edge of the Dartmouth College campus
+2013-04-07 03:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",North Park Street
+2013-04-07 04:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Hopkins Center for the Arts
+2013-04-07 05:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-07 06:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Road
+2013-04-07 07:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Dick's House
+2013-04-07 08:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-07 09:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",McNutt Hall
+2013-04-07 10:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-07 11:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",McNutt Hall
+2013-04-07 12:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-07 13:00:00,0,"Hanover High School, 41 Lebanon Street, Hanover, NH 03755, United States of America","This address is for Hanover High School, which is a separate institution and not part of Dartmouth College. It is not a location within the university"
+2013-04-07 14:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address is the location of the Baker-Berry Library, Dartmouth College's main library"
+2013-04-07 15:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-07 16:00:00,0,"North Park Street, Hanover, NH 03755, United States of America","Baker-Berry Library, Dartmouth College"
+2013-04-07 17:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-07 18:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-07 19:00:00,1,"Glen Road Plaza, South Main Street, West Lebanon, Lebanon, NH 03784, United States of America","That address, Glen Road Plaza, is a commercial shopping center in West Lebanon, NH. It is not a part of Dartmouth College's campus. Therefore, it is not a specific room, building, or location within the university"
+2013-04-07 20:00:00,1,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-07 21:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address is McLane Hall, which is a dormitory at Dartmouth College"
+2013-04-07 22:00:00,1,"10 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-07 23:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Fairchild Physical Sciences Center
+2013-04-08 00:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Hood Museum of Art
+2013-04-08 01:00:00,0,"North Park Street, Hanover, NH 03755, United States of America","This is North Park Street, a road within Dartmouth College"
+2013-04-08 02:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Admissions Office
+2013-04-08 03:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-08 04:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-08 05:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","McNutt Hall, an academic and administrative building"
+2013-04-08 06:00:00,0,"North Park Street, Hanover, NH 03755, United States of America","The Hopkins Center for the Arts, a performing arts center"
+2013-04-08 07:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-08 08:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-08 09:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Office of Admissions
+2013-04-08 10:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-08 11:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-08 12:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-08 13:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-08 14:00:00,0,"78 College Street, Hanover, NH 03755, United States of America","McNutt Hall, home to the Tuck School of Business"
+2013-04-08 15:00:00,0,"78 College Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-04-08 16:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-04-08 17:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",North Park Street
+2013-04-08 18:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Berry Library
+2013-04-08 19:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",North Park Street is a road that borders and runs through the campus of Dartmouth College
+2013-04-08 20:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Hopkins Center for the Arts
+2013-04-08 21:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-08 22:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-08 23:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-09 00:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Hood Museum of Art
+2013-04-09 01:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-09 02:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",A road
+2013-04-09 03:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Tower Room
+2013-04-09 04:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Hopkins Center for the Arts
+2013-04-09 05:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-09 06:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Hopkins Center for the Arts
+2013-04-09 07:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Dartmouth College Admissions Office
+2013-04-09 08:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address corresponds to McNutt Hall, which houses the Admissions Office at Dartmouth College"
+2013-04-09 09:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address is the McLane Admissions Center, which houses the Dartmouth College Office of Admissions"
+2013-04-09 10:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-09 11:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-04-09 12:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-09 13:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",It is a road
+2013-04-09 14:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-09 15:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-09 16:00:00,0,"5 Prospect Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-04-09 17:00:00,0,"5 Prospect Street, Hanover, NH 03755, United States of America",McNutt Hall
+2013-04-09 18:00:00,1,"11 South Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-04-09 19:00:00,0,"Hanover High School, 41 Lebanon Street, Hanover, NH 03755, United States of America","That address is for Hanover High School, which is a separate institution and not a specific place or room within Dartmouth College"
+2013-04-09 20:00:00,0,"Hanover High School, 41 Lebanon Street, Hanover, NH 03755, United States of America","This address is for Hanover High School, which is a separate institution and not part of Dartmouth College"
+2013-04-09 21:00:00,0,"Hanover High School, 41 Lebanon Street, Hanover, NH 03755, United States of America","That address is for Hanover High School, which is a separate institution and not part of Dartmouth College. Therefore, it is not a specific place or room within the university"
+2013-04-09 22:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Admissions Office
+2013-04-09 23:00:00,0,"unnamed road, Lebanon, NH 03766, United States of America","That address is not located within Dartmouth College. Dartmouth College is in Hanover, NH, while this address is in Lebanon, NH, a neighboring town. Therefore, it is not a specific place or room on the Dartmouth campus"
+2013-04-10 00:00:00,0,"Plainfield Road, Lebanon, NH 03784, United States of America","Plainfield Road is a road in Lebanon, NH, not a specific location or building on the campus of Dartmouth College in Hanover, NH"
+2013-04-10 01:00:00,1,"18 North Park Street, Hanover, NH 03755, United States of America","This address corresponds to McNutt Hall, which houses the Office of Admissions and Financial Aid at Dartmouth College"
+2013-04-10 02:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Office of Admissions
+2013-04-10 03:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Baker-Berry Library

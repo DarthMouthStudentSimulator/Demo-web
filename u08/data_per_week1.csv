@@ -1,0 +1,175 @@
+times, activity inference,location,location_des
+2013-03-27 04:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-03-27 05:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 06:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 07:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 09:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 10:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 11:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 12:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 13:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 14:00:00,0,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America",It is a building primarily containing research laboratories
+2013-03-27 15:00:00,0,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America","It is an academic building primarily housing labs and classrooms for life sciences, known as the Class of 1978 Life Sciences Center"
+2013-03-27 16:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Computer Science Lab
+2013-03-27 17:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-03-27 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 20:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 21:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 22:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 23:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",The Department of Computer Science
+2013-03-28 00:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America","Sudikoff Hall is the primary academic building for Computer Science at Dartmouth College, housing classrooms and labs"
+2013-03-28 01:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-03-28 02:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-28 03:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-28 04:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-03-28 05:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 06:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 07:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 09:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 10:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 11:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 12:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 13:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 14:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 16:00:00,0,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America","The Class of 1978 Life Sciences Center, an academic building primarily housing labs and classrooms for life sciences"
+2013-03-28 17:00:00,2,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-03-28 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 19:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-28 20:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 21:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 22:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 23:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",It is the Computer Science building at Dartmouth College
+2013-03-29 00:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America","At Dartmouth College, Sudikoff Hall is the primary building for the Computer Science Department, containing computer science labs"
+2013-03-29 01:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science building at Dartmouth College
+2013-03-29 02:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",The Computer Science Department
+2013-03-29 03:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall at Dartmouth College is primarily a computer science research lab building
+2013-03-29 04:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is a computer science lab building at Dartmouth College
+2013-03-29 05:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-29 06:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-29 07:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-29 08:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-29 09:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-29 10:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-29 11:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-29 12:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-29 13:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-29 14:00:00,0,"78 College Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-03-29 15:00:00,0,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America",It is a research laboratory building
+2013-03-29 16:00:00,0,"Maynard Street, Hanover, NH 03755, United States of America","This address is for Dartmouth College in Hanover, NH, not ""University of Dartmouth"".
+
+On Maynard Street, you would find student housing"
+2013-03-29 17:00:00,0,"Sarner Underground, 6 Mass Row, Hanover, NH 03755, United States of America",The Sarner Underground is a student activities space
+2013-03-29 18:00:00,0,"Guarini Institute for International Education, 44 College Street, Hanover, NH 03755, United States of America",Guarini Institute for International Education
+2013-03-29 19:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall at Dartmouth College is primarily a computer science research lab building
+2013-03-29 20:00:00,1,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-03-29 21:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-03-29 22:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-03-29 23:00:00,1,"Reed Hall, 15 College Street, Hanover, NH 03755, United States of America",Classroom
+2013-03-30 00:00:00,0,"Reed Hall, 15 College Street, Hanover, NH 03755, United States of America",Classroom
+2013-03-30 01:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-03-30 02:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-03-30 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 04:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 05:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 06:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 07:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 09:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 10:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 11:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 12:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 13:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 14:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 16:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-30 17:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-30 18:00:00,2,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America","The Hopkins Center for the Arts, Dartmouth College's performing arts center"
+2013-03-30 19:00:00,1,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America",Dartmouth College's performing arts center
+2013-03-30 20:00:00,0,"Zahm Courtyard, Hanover, NH 03755, United States of America","This address is for Dartmouth College, not the ""University of Dartmouth.""
+
+It is Zahm Courtyard, an outdoor courtyard located within the campus"
+2013-03-30 21:00:00,0,"Zahm Courtyard, Hanover, NH 03755, United States of America","This address is for Dartmouth College, not the ""University of Dartmouth.""
+
+It is Zahm Courtyard, an outdoor courtyard located within the campus"
+2013-03-30 22:00:00,0,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America",Dartmouth's performing arts center
+2013-03-30 23:00:00,0,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America",This is the performing arts center for Dartmouth College
+2013-03-31 00:00:00,0,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America",Performing arts center
+2013-03-31 01:00:00,0,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America",Performing arts center
+2013-03-31 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-03-31 03:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 04:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 05:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 06:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 07:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 08:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 09:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 10:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 11:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 12:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 13:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 14:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 15:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 16:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 17:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 18:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 19:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-03-31 20:00:00,0,"East Wheelock Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-03-31 21:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-31 22:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall at Dartmouth College is primarily a computer science lab building
+2013-03-31 23:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-01 00:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-01 01:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-01 02:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-01 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-04-01 04:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-01 05:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-01 06:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-01 07:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-01 08:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-01 09:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-01 10:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-01 11:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-01 12:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-01 13:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-01 14:00:00,0,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America",It is a building primarily containing research laboratories
+2013-04-01 15:00:00,0,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America",It is a building primarily containing research laboratories
+2013-04-01 16:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",A Computer Science Lab
+2013-04-01 17:00:00,1,"Hood Museum of Art, 6 East Wheelock Street, Hanover, NH 03755, United States of America",The location is the Hood Museum of Art
+2013-04-01 18:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-01 19:00:00,2,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-04-01 20:00:00,2,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-01 21:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-01 22:00:00,0,"Alumni Gymnasium, 16 East Wheelock Street, Hanover, NH 03755, United States of America","It is the Alumni Gymnasium, the main gym facility at Dartmouth College"
+2013-04-01 23:00:00,0,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America",Dartmouth College's performing arts center
+2013-04-02 00:00:00,3,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 01:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 02:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 03:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 04:00:00,0,"Topliff Hall, 12 East Wheelock Street, Hanover, NH 03755, United States of America",Topliff Hall is a dormitory
+2013-04-02 05:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 06:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 07:00:00,0,"Topliff Hall, 12 East Wheelock Street, Hanover, NH 03755, United States of America",Topliff Hall is a dormitory
+2013-04-02 08:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 09:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 10:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 11:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 12:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 13:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 14:00:00,0,"Topliff Hall, 12 East Wheelock Street, Hanover, NH 03755, United States of America",Topliff Hall is a dormitory
+2013-04-02 15:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 16:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 17:00:00,1,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is a Computer Science Lab building
+2013-04-02 18:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science department building at Dartmouth College
+2013-04-02 19:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-02 20:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-04-02 21:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-02 22:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-02 23:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the primary building for the Computer Science Department at Dartmouth College
+2013-04-03 00:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-03 01:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-03 02:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-03 03:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory

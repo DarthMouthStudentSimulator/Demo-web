@@ -1,0 +1,93 @@
+times, activity inference,location,location_des
+2013-05-15 17:00:00,0,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America",Dartmouth College's performing arts center
+2013-05-15 18:00:00,0,"Zahm Courtyard, Hanover, NH 03755, United States of America","This address is for Dartmouth College, not the ""University of Dartmouth.""
+
+It is Zahm Courtyard, an outdoor courtyard located within the campus"
+2013-05-15 19:00:00,0,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America","The Hopkins Center for the Arts, Dartmouth College's performing arts center"
+2013-05-15 20:00:00,1,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-15 21:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-15 22:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-15 23:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 00:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 01:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 02:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 03:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 04:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 05:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 06:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 07:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 08:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 09:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 10:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 11:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 12:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 13:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 14:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-16 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-16 16:00:00,0,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America",Dartmouth's performing arts center
+2013-05-16 17:00:00,0,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America","The Hopkins Center for the Arts, Dartmouth College's performing arts center"
+2013-05-16 18:00:00,1,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America",Performing arts center
+2013-05-16 19:00:00,0,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America",Performing arts center
+2013-05-19 23:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-20 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-20 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-20 02:00:00,0,"Hood Museum of Art, 6 East Wheelock Street, Hanover, NH 03755, United States of America",Art museum
+2013-05-20 03:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-20 04:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-20 05:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-20 06:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-20 07:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-20 08:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-20 09:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-20 10:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-20 11:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-20 12:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-20 13:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-20 14:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-20 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-20 16:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-20 17:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the building that houses the Computer Science Department at Dartmouth College
+2013-05-20 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-20 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-20 20:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-20 21:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-20 22:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-05-20 23:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-21 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-21 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-21 02:00:00,1,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-21 03:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-21 04:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-21 05:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-21 06:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-21 07:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-21 08:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-21 09:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-21 10:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-21 11:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-21 12:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-21 13:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-21 14:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the main building for the Computer Science Department at Dartmouth College
+2013-05-21 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-21 16:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-21 17:00:00,2,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America",Dartmouth College's performing arts center
+2013-05-21 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-21 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-21 20:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-21 21:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-21 22:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-21 23:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-22 00:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-22 01:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-22 02:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-22 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-22 04:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-22 05:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-22 06:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-22 07:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-22 08:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-22 09:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-22 13:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-22 14:00:00,0,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-22 15:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-05-22 16:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
