@@ -48,11 +48,11 @@ export type CampusPlace = {
 
 export const CAMPUS_PLACES: CampusPlace[] = [
   { key: "study building", label: "Study building", x: 0.175, y: 0.52, aliases: ["study", "study building", "lsb", "silsby", "rocky"] },
-  { key: "alumni gym", label: "alumni gym", x: 0.13, y: 0.62, aliases: ["alumni gym"] },
+  { key: "alumni gym", label: "alumni gym", x: 0.13, y: 0.62, aliases: ["alumni gym","alumni"] },
   { key: "laboratory", label: "Laboratory", x: 0.08, y: 0.8, aliases: ["laboratory", "lab", "life sciences", "lsr"] },
   { key: "community club", label: "Community club", x: 0.30, y: 0.99, aliases: ["community", "community club"] },
   { key: "library", label: "Library", x: 0.33, y: 0.8, aliases: ["library", "baker", "berry"] },
-  { key: "gym", label: "gym", x: 0.4, y: 0.65, aliases: ["gym", "alumni", "fitness"] },
+  { key: "gym", label: "gym", x: 0.4, y: 0.65, aliases: ["gym", "fitness"] },
   { key: "medical center", label: "medical center", x: 0.40, y: 0.65, aliases: ["medical", "health", "medical center"] },
   { key: "main building", label: "Main building", x: 0.51, y: 0.5, aliases: ["main building", "parkhurst", "administration","Admissions Office"] },
   { key: "art center", label: "art center", x: 0.68, y: 0.64, aliases: ["art center", "hood", "museum","The Hopkins Center for the Arts"] },
@@ -62,7 +62,7 @@ export const CAMPUS_PLACES: CampusPlace[] = [
   { key: "cafeteria", label: "cafeteria", x: 0.83, y: 0.52, aliases: ["cafeteria", "collis", "snack"] },
   { key: "dining hall", label: "Dining hall", x: 0.83, y: 0.63, aliases: ["dining", "foco", "dining hall"] },
   { key: "hall1", label: "hall 1", x: 0.87, y: 0.70, aliases: ["hall 1", "math", "kst", "kst hall"] },
-  { key: "green", label: "green", x: 0.87, y: 0.88, aliases: ["green", "dartmouth green"] },
+  { key: "green", label: "green", x: 0.87, y: 0.88, aliases: ["green", "dartmouth green","park"] },
 ];
 
 function normalize(s: string): string {

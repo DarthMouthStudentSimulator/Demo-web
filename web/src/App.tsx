@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import './App.css'
 import type { EmotionEntry, LocationRecord, UserProfile } from './api'
-import { getDays, getEmotions, getLocations, getUserProfile, listUsers, listWeeks } from './api'
+import { getDays, getEmotions, getLocations, getUserProfile, listWeeks } from './api'
 import { CAMPUS_PLACES, matchPlaceByText } from './geo'
 
 // Animation types
@@ -11,6 +11,43 @@ type AnimatedPosition = {
   timestamp: number
   location: string
 }
+
+// Emoji mappings
+const personalityEmojis = {
+  openness: '🔍',
+  conscientiousness: '📋',
+  extraversion: '🗣️',
+  agreeableness: '🤝',
+  neuroticism: '😰'
+} as const
+
+const emotionEmojis = {
+  stamina: '💪',
+  knowledge: '🧠',
+  stress: '😰',
+  happy: '😄',
+  sleep: '😴',
+  social: '👥'
+} as const
+
+const locationEmojis = {
+  'study building': '📚',
+  'alumni gym': '👟',
+  'laboratory': '🔬',
+  'community club': '🏛️',
+  'library': '📖',
+  'gym': '💪',
+  'medical center': '🏥',
+  'main building': '🏢',
+  'art center': '🎨',
+  'hall 2': '🏫',
+  'dormitory': '🏠',
+  'inn': '🏨',
+  'cafeteria': '☕',
+  'dining hall': '🍽️',
+  'hall 1': '🏫',
+  'green': '🌳'
+} as const
 
 type AnimationState = {
   currentPosition: AnimatedPosition | null
@@ -77,6 +114,13 @@ function App() {
   const [isTestingApi, setIsTestingApi] = useState<boolean>(false)
   const [isPlaying, setIsPlaying] = useState(false)
   const chatMessagesEndRef = useRef<HTMLDivElement>(null)
+  const [currentTimePeriod, setCurrentTimePeriod] = useState<'day' | 'night'>('day')
+  const [timeMessage, setTimeMessage] = useState<string>('')
+  const [showTimeMessage, setShowTimeMessage] = useState(false)
+  const [dayWeekMessage, setDayWeekMessage] = useState<string>('')
+  const [showDayWeekMessage, setShowDayWeekMessage] = useState(false)
+  const timeMessageTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const dayWeekMessageTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   
   // Animation state
   const [animationState, setAnimationState] = useState<AnimationState>({
@@ -88,6 +132,61 @@ function App() {
   })
   const animationFrameRef = useRef<number | null>(null)
   const previousTimeIndexRef = useRef<number>(-1)
+
+  // Helper function to determine if current time is day or night
+  const getTimePeriod = useCallback((timeString: string): 'day' | 'night' => {
+    const hour = new Date(timeString).getHours()
+    return hour >= 6 && hour < 18 ? 'day' : 'night'
+  }, [])
+
+  // Helper function to show time-based message
+  const showTimeBasedMessage = useCallback((timeString: string) => {
+    const timePeriod = getTimePeriod(timeString)
+    
+    if (timePeriod !== currentTimePeriod) {
+      // Clear any existing timeouts
+      if (timeMessageTimeoutRef.current) {
+        clearTimeout(timeMessageTimeoutRef.current)
+      }
+      
+      // Set new time period immediately for smooth crossfade
+      setCurrentTimePeriod(timePeriod)
+      
+      // Show message after a short delay to let the image transition start
+      setTimeout(() => {
+        if (timePeriod === 'day') {
+          setTimeMessage('☀️ Good morning! ') //The sun is shining bright on campus!
+        } else {
+          setTimeMessage('🌙 The moon is raising') //is watching over the campus!
+        }
+        
+        setShowTimeMessage(true)
+        
+        // Hide message after 3 seconds
+        timeMessageTimeoutRef.current = setTimeout(() => {
+          setShowTimeMessage(false)
+        }, 3000)
+      }, 300) // 300ms delay to let image transition start
+    }
+  }, [currentTimePeriod, getTimePeriod])
+
+  // Helper function to show day/week change message
+  const showDayWeekChangeMessage = useCallback((type: 'day' | 'week', value: string | number) => {
+    // Clear any existing timeouts
+    if (dayWeekMessageTimeoutRef.current) {
+      clearTimeout(dayWeekMessageTimeoutRef.current)
+    }
+    
+    if (type === 'day') {
+      setDayWeekMessage(`📅 New day: ${value}`)
+    } else {
+      setDayWeekMessage(`📆 New week: Week ${value}`)
+    }
+    
+    setShowDayWeekMessage(true)
+    dayWeekMessageTimeoutRef.current = setTimeout(() => setShowDayWeekMessage(false), 3000)
+  }, [])
+
   useEffect(() => {
   // Fetch user list from backend API
   fetch('http://localhost:8089/api/users') // <-- add http://localhost:8089
@@ -100,7 +199,7 @@ function App() {
       }
     })
     .catch(console.error)
-}, [])
+}, [user])
   useEffect(() => {
   if (isDebouncing) {
     const timeout = setTimeout(() => setIsDebouncing(false), 700) // 700ms delay
@@ -153,7 +252,8 @@ function App() {
     listWeeks(user)
       .then((ws) => {
         setWeeks(ws)
-        if (!ws.includes(week)) setWeek(ws[0] ?? 1)
+        const newWeek = ws.includes(week) ? week : (ws[0] ?? 1)
+        setWeek(newWeek)
       })
       .catch(console.error)
     getEmotions(user).then(setEmotions).catch(console.error)
@@ -166,12 +266,20 @@ function App() {
     getDays(user, week)
       .then((ds) => {
         setDays(ds)
-        setDay(ds[0] ?? '')
-        setTimeIndex(-1)
+        // Only set to first day if no day is currently selected or if current day is not in the new list
+        if (!day || !ds.includes(day)) {
+          const newDay = ds[0] ?? ''
+          setDay(newDay)
+          setTimeIndex(-1)
+        }
       })
       .catch(console.error)
-  }, [user, week])
+  }, [user, week, day])
 
+  // Track previous day and week to detect manual changes
+  const prevDayRef = useRef<string>('')
+  const prevWeekRef = useRef<number>(0)
+  
   useEffect(() => {
     if (!day) return
     getLocations(user, week, day).then((recs) => {
@@ -181,6 +289,22 @@ function App() {
       setTimeIndex(sorted.length > 0 ? 0 : -1) 
     }).catch(console.error)
   }, [user, week, day])
+
+  // Handle manual day changes
+  useEffect(() => {
+    if (day && prevDayRef.current && prevDayRef.current !== day) {
+      showDayWeekChangeMessage('day', day)
+    }
+    prevDayRef.current = day
+  }, [day, showDayWeekChangeMessage])
+
+  // Handle manual week changes
+  useEffect(() => {
+    if (week && prevWeekRef.current && prevWeekRef.current !== week) {
+      showDayWeekChangeMessage('week', week)
+    }
+    prevWeekRef.current = week
+  }, [week, showDayWeekChangeMessage])
 
   const weeklyEmotion = useMemo(() => emotions.find((e) => e.week === week)?.emotion, [emotions, week])
   const weeklyDescription = useMemo(() => emotions.find((e) => e.week === week)?.weekly_desc, [emotions, week])
@@ -335,6 +459,9 @@ function App() {
     const currentRecord = locations[timeIndex]
     if (!currentRecord) return
 
+    // Check for time period changes and show message
+    showTimeBasedMessage(currentRecord.time)
+
     const newPosition = createAnimatedPosition(currentRecord)
     if (!newPosition) return
 
@@ -368,13 +495,19 @@ function App() {
     }
 
     previousTimeIndexRef.current = timeIndex
-  }, [locations, timeIndex, animateToPosition, createAnimatedPosition])
+  }, [locations, timeIndex, animateToPosition, createAnimatedPosition, showTimeBasedMessage])
 
-  // Cleanup animation on unmount
+  // Cleanup animation and timeouts on unmount
   useEffect(() => {
     return () => {
       if (animationFrameRef.current) {
         cancelAnimationFrame(animationFrameRef.current)
+      }
+      if (timeMessageTimeoutRef.current) {
+        clearTimeout(timeMessageTimeoutRef.current)
+      }
+      if (dayWeekMessageTimeoutRef.current) {
+        clearTimeout(dayWeekMessageTimeoutRef.current)
       }
     }
   }, [])
@@ -454,52 +587,6 @@ function App() {
     }
   }
 
-  // Play Time Flow: animate time, then day, then week
-  const playTimeFlow = useCallback(async () => {
-    if (isPlaying) return
-    setIsPlaying(true)
-    try {
-      // Animate time slider for current day
-      for (let t = 0; t < locations.length; t++) {
-        setTimeIndex(t)
-        await new Promise(res => setTimeout(res, 600))
-        if (!isPlaying) return
-      }
-      // Animate through days
-      for (let d = days.indexOf(day) + 1; d < days.length; d++) {
-        setDay(days[d])
-        await new Promise(res => setTimeout(res, 800))
-        if (!isPlaying) return
-        // Animate time for new day
-        const recs = await getLocations(user, week, days[d])
-        for (let t = 0; t < recs.length; t++) {
-          setTimeIndex(t)
-          await new Promise(res => setTimeout(res, 600))
-          if (!isPlaying) return
-        }
-      }
-      // Animate through weeks
-      for (let w = weeks.indexOf(week) + 1; w < weeks.length; w++) {
-        setWeek(weeks[w])
-        await new Promise(res => setTimeout(res, 1000))
-        if (!isPlaying) return
-        // Animate first day of new week
-        const ds = await getDays(user, weeks[w])
-        if (ds.length > 0) {
-          setDay(ds[0])
-          await new Promise(res => setTimeout(res, 800))
-          const recs = await getLocations(user, weeks[w], ds[0])
-          for (let t = 0; t < recs.length; t++) {
-            setTimeIndex(t)
-            await new Promise(res => setTimeout(res, 600))
-            if (!isPlaying) return
-          }
-        }
-      }
-    } finally {
-      setIsPlaying(false)
-    }
-  }, [user, week, weeks, day, days, locations, isPlaying])
 
   // Stop play if user interacts
   useEffect(() => {
@@ -515,6 +602,12 @@ function App() {
         @keyframes pulse {
           0%, 80%, 100% { opacity: 0; }
           40% { opacity: 1; }
+        }
+        @keyframes fadeInOut {
+          0% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+          20% { opacity: 1; transform: translateX(-50%) translateY(0); }
+          80% { opacity: 1; transform: translateX(-50%) translateY(0); }
+          100% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
         }
       `}</style>
       <h2 style={{ 
@@ -587,7 +680,7 @@ function App() {
                   <h4 style={{ margin: '0 0 8px 0', fontSize: 15, color: '#7c2d12', fontWeight: 'bold' }}>Personality (Big Five):</h4>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
                     {Object.entries(userProfile.big_five).map(([trait, value]) => {
-                      const getPersonalityEmoji = (trait: string) => ({ openness: '🔍', conscientiousness: '📋', extraversion: '🗣️', agreeableness: '🤝', neuroticism: '😰' }[trait as keyof typeof emojis] || '📊')
+                      const getPersonalityEmoji = (trait: string) => personalityEmojis[trait as keyof typeof personalityEmojis] || '📊'
                       return (
                         <div key={trait} style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
                           <span style={{ fontSize: 14 }}>{getPersonalityEmoji(trait)}</span>
@@ -622,7 +715,16 @@ function App() {
               {weeklyEmotion ? (
                 <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 8 }}>
                   {Object.entries(weeklyEmotion).map(([k, v]) => {
-                    const getEmoji = (key: string, value: number) => ({ stamina: value >= 80 ? '💪' : value >= 50 ? '🚶' : '😴', knowledge: value >= 80 ? '🧠' : value >= 50 ? '📚' : '🤔', stress: value >= 80 ? '😰' : value >= 50 ? '😐' : '😌', happy: value >= 80 ? '😄' : value >= 50 ? '🙂' : '😔', sleep: value >= 80 ? '😴' : value >= 50 ? '🌙' : '😵', social: value >= 80 ? '👥' : value >= 50 ? '👋' : '😶' }[key as keyof typeof emojis] || '📊')
+                    const getEmoji = (key: string, value: number) => {
+                      const baseEmoji = emotionEmojis[key as keyof typeof emotionEmojis] || '📊'
+                      if (key === 'stamina') return value >= 80 ? '💪' : value >= 50 ? '🚶' : '😴'
+                      if (key === 'knowledge') return value >= 80 ? '🧠' : value >= 50 ? '📚' : '🤔'
+                      if (key === 'stress') return value >= 80 ? '😰' : value >= 50 ? '😐' : '😌'
+                      if (key === 'happy') return value >= 80 ? '😄' : value >= 50 ? '🙂' : '😔'
+                      if (key === 'sleep') return value >= 80 ? '😴' : value >= 50 ? '🌙' : '😵'
+                      if (key === 'social') return value >= 80 ? '👥' : value >= 50 ? '👋' : '😶'
+                      return baseEmoji
+                    }
                     return (
                       <div key={k} style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                         <span style={{ fontSize: 16 }}>{getEmoji(k, v as number)}</span>
@@ -645,7 +747,96 @@ function App() {
         {/* Center Column: Campus Map & Controls */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
           <div style={{ position: 'relative', background: '#eef2f7', overflow: 'hidden', borderRadius: 8, lineHeight: 0, width: '100%', height: 'fit-content', contain: 'layout style' }}>
-            <img src="/campus_map.png" alt="Campus map" style={{ width: '100%', height: 'auto', display: 'block', maxWidth: '100%' }} />
+            {/* Placeholder to maintain aspect ratio */}
+            <img 
+              src="/campus_map.png" 
+              alt="Campus map placeholder" 
+              style={{ 
+                width: '100%', 
+                height: 'auto', 
+                display: 'block', 
+                maxWidth: '100%',
+                visibility: 'hidden'
+              }} 
+            />
+            {/* Day map */}
+            <img 
+              src="/campus_map.png" 
+              alt="Campus map (day)" 
+              style={{ 
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%', 
+                height: 'auto', 
+                display: 'block', 
+                maxWidth: '100%',
+                transition: 'opacity 0.8s ease-in-out',
+                opacity: currentTimePeriod === 'day' ? 1 : 0,
+                zIndex: 1
+              }} 
+            />
+            {/* Night map */}
+            <img 
+              src="/campus_map_night.png" 
+              alt="Campus map (night)" 
+              style={{ 
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%', 
+                height: 'auto', 
+                display: 'block', 
+                maxWidth: '100%',
+                transition: 'opacity 0.8s ease-in-out',
+                opacity: currentTimePeriod === 'night' ? 1 : 0,
+                zIndex: 1
+              }} 
+            />
+            
+            {/* Time-based message overlay - only show if no day/week message is showing */}
+            {showTimeMessage && !showDayWeekMessage && (
+              <div style={{
+                position: 'absolute',
+                top: '20%',
+                left: '50%',
+                transform: 'translateX(-50%)',
+                background: 'rgba(0, 0, 0, 0.8)',
+                color: 'white',
+                padding: '12px 20px',
+                borderRadius: '12px',
+                fontSize: '16px',
+                fontWeight: 'bold',
+                textAlign: 'center',
+                zIndex: 20,
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.3)',
+                animation: 'fadeInOut 3s ease-in-out'
+              }}>
+                {timeMessage}
+              </div>
+            )}
+            
+            {/* Day/Week change message overlay - higher priority */}
+            {showDayWeekMessage && (
+              <div style={{
+                position: 'absolute',
+                top: '10%',
+                left: '50%',
+                transform: 'translateX(-50%)',
+                background: 'rgba(59, 130, 246, 0.9)',
+                color: 'white',
+                padding: '10px 16px',
+                borderRadius: '10px',
+                fontSize: '14px',
+                fontWeight: 'bold',
+                textAlign: 'center',
+                zIndex: 21,
+                boxShadow: '0 4px 12px rgba(59, 130, 246, 0.3)',
+                animation: 'fadeInOut 3s ease-in-out'
+              }}>
+                {dayWeekMessage}
+              </div>
+            )}
             {layer !== 'Emotion' && animationState.pathHistory.length > 1 && (
               <svg style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', pointerEvents: 'none', zIndex: 5 }} viewBox="0 0 1 1" preserveAspectRatio="none">
                 {animationState.pathHistory.map((pos, idx) => idx === 0 ? null : ( <line key={`path-${idx}`} x1={animationState.pathHistory[idx - 1].x} y1={animationState.pathHistory[idx - 1].y} x2={pos.x} y2={pos.y} stroke="#3b82f6" strokeWidth="0.003" strokeDasharray="0.01 0.005" opacity={0.8} /> ))}
@@ -708,15 +899,15 @@ function App() {
             </div>
 
             <div style={{ padding: 12, border: '1px solid #e5e7eb', borderRadius: 8, backgroundColor: '#f8fafc' }}>
-              <h3 style={{ margin: 0, fontSize: 16, background: 'linear-gradient(135deg, #f59e0b, #d97706)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', fontWeight: 'bold' }}>🗺️ Campus Locations:</h3>
+              <h3 style={{ margin: 0, fontSize: 24, background: 'linear-gradient(135deg, #f59e0b, #d97706)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', fontWeight: 'bold' }}>🗺️ Campus Locations:</h3>
               <div style={{ display: 'grid', gridTemplateColumns: '24px 1fr', rowGap: 6, columnGap: 8, marginTop: 8 }}>
-                <img src="/student.png" alt="Student" style={{ width: 20, height: 20, borderRadius: '50%', border: '1px solid #b38f00' }} />
-                <span style={{ fontSize: 12, color: '#b38f00' }}>Student position</span>
+                <img src="/student.png" alt="Student" 
+                style={{ width: 20, height: 20, borderRadius: '50%', border: '1px solid #b38f00' }} /><span style={{ fontSize: 14, color: '#b38f00' }}>Student position</span>
               </div>
-              <div style={{ marginTop: 12 }}>
+              <div style={{ marginTop: 0 }}>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 4, fontSize: 11 }}>
                   {CAMPUS_PLACES.map((p) => {
-                    const getLocationEmoji = (key: string) => ({ 'study building': '📚', 'alumni gym': '👟', 'laboratory': '🔬', 'community club': '🏛️', 'library': '📖', 'gym': '💪', 'medical center': '🏥', 'main building': '🏢', 'art center': '🎨', 'hall 2': '🏫', 'dormitory': '🏠', 'inn': '🏨', 'cafeteria': '☕', 'dining hall': '🍽️', 'hall 1': '🏫', 'green': '🌳' }[key as keyof typeof emojis] || '📍')
+                    const getLocationEmoji = (key: string) => locationEmojis[key as keyof typeof locationEmojis] || '📍'
                     return (
                       <div key={p.key} style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
                         <span>{getLocationEmoji(p.key)}</span>
