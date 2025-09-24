@@ -1,0 +1,143 @@
+times, activity inference,location,location_des
+2013-05-08 04:00:00,0,"Topliff Hall, 12 East Wheelock Street, Hanover, NH 03755, United States of America",Topliff Hall is a dormitory
+2013-05-08 05:00:00,1,"Reed Hall, 15 College Street, Hanover, NH 03755, United States of America",Classroom
+2013-05-08 06:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-08 07:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-08 08:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-08 09:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-08 10:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-08 11:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-08 12:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-08 13:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-08 14:00:00,1,"78 College Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-08 15:00:00,0,"78 College Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-05-08 16:00:00,2,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-05-08 17:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-08 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-08 19:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-08 20:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-08 21:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-08 22:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-08 23:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-09 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-09 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-09 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-09 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-09 04:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-09 05:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-09 06:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-09 07:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-09 08:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-09 09:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-09 10:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-09 11:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-09 12:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-05-09 13:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-05-09 14:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-09 15:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-09 16:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-09 17:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-09 18:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-09 19:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-09 20:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the primary building for the Computer Science Department at Dartmouth College
+2013-05-09 21:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-05-09 22:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the primary building for the Computer Science Department at Dartmouth College
+2013-05-09 23:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is a Computer Science building containing classrooms and labs
+2013-05-10 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-10 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-10 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-10 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-10 04:00:00,1,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-10 05:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-10 06:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-10 07:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-10 08:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-10 09:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-10 10:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-10 11:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-10 12:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-10 13:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-10 14:00:00,0,"78 College Street, Hanover, NH 03755, United States of America","McNutt Hall, which houses the Admissions Office"
+2013-05-10 15:00:00,0,"78 College Street, Hanover, NH 03755, United States of America","McNutt Hall, which houses the Admissions Office"
+2013-05-10 16:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-10 17:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-10 18:00:00,1,"5 Prospect Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-05-10 19:00:00,0,"5 Prospect Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-05-10 20:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-10 21:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-10 22:00:00,0,,
+2013-05-10 23:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-11 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-11 01:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 02:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 03:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 04:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 05:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 06:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 07:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 08:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 09:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 10:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 11:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 12:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 13:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 14:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-11 15:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-12 17:00:00,3,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-12 18:00:00,1,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-12 19:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-12 20:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-12 21:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-12 22:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-12 23:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 01:00:00,2,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 02:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 03:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 04:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 05:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 06:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 07:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-13 09:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 10:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 11:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 12:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 13:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 14:00:00,0,"Reed Hall, 15 College Street, Hanover, NH 03755, United States of America",Classroom
+2013-05-13 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-13 16:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-13 17:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-13 18:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 19:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 20:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 21:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 22:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-13 23:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-05-14 02:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 03:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 04:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 05:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 06:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 07:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 08:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 09:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 10:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 11:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 12:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 13:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 14:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 15:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 16:00:00,1,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the primary building for the Computer Science Department at Dartmouth College
+2013-05-14 17:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",This is the Computer Science Department at Dartmouth College
+2013-05-14 18:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",This is the Computer Science Department at Dartmouth College
+2013-05-14 19:00:00,1,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-05-14 20:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Computer Science Department building
+2013-05-14 21:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",This is the Computer Science Department at Dartmouth College
+2013-05-14 22:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-14 23:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-05-15 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-05-15 02:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-05-15 03:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall

@@ -1,0 +1,162 @@
+times, activity inference,location,location_des
+2013-05-22 04:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address corresponds to McNutt Hall, which houses the Office of Admissions at Dartmouth College"
+2013-05-22 05:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address corresponds to McNutt Hall, which houses the Admissions Office at Dartmouth College"
+2013-05-22 06:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the location of the Dartmouth College Admissions Office
+2013-05-22 07:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-05-22 08:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-22 09:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the location of the Dartmouth College Admissions Office
+2013-05-22 10:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address is the Dartmouth College Office of Admissions, located in McNutt Hall"
+2013-05-22 11:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",North Park House
+2013-05-22 12:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-22 13:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address corresponds to McNutt Hall, which houses the Admissions Office at Dartmouth College"
+2013-05-22 14:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-22 15:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","McNutt Hall, an academic building"
+2013-05-22 16:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the location of the Dartmouth College Admissions Office
+2013-05-22 17:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Dartmouth College Admissions Office
+2013-05-22 18:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Dartmouth College Office of Admissions
+2013-05-22 19:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-05-22 20:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-22 21:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-22 22:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Dartmouth College Admissions Office
+2013-05-22 23:00:00,1,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",It is the Computer Science Department at Dartmouth College
+2013-05-23 00:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is a computer science laboratory building at Dartmouth College
+2013-05-23 01:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall at Dartmouth College. It primarily houses the Computer Science Department
+2013-05-23 02:00:00,0,"8 North Park Street, Hanover, NH 03755, United States of America",Dick's House
+2013-05-23 03:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",A dormitory: North Park House
+2013-05-23 04:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address corresponds to McNutt Hall, which houses the Admissions Office at Dartmouth College"
+2013-05-23 05:00:00,1,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-23 06:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Admissions Office
+2013-05-23 07:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Admissions Office
+2013-05-23 08:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-05-23 09:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Admissions Office
+2013-05-23 10:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-23 11:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-23 12:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",The Dartmouth College Admissions Office
+2013-05-23 13:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",The Baker-Berry Library
+2013-05-23 14:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-23 15:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",North Park House
+2013-05-23 16:00:00,1,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-05-23 19:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Sanborn House
+2013-05-23 20:00:00,0,"Alpha Phi, 2 North Park Street, Hanover, NH 03755, United States of America",Alpha Phi sorority house
+2013-05-23 21:00:00,1,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-23 22:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Admissions Office
+2013-05-23 23:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",North Park House
+2013-05-24 00:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-05-24 01:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This location is McNutt Hall, which houses the Admissions Office and the Registrar's Office at Dartmouth College"
+2013-05-24 02:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-05-24 03:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-05-24 04:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","McNutt Hall, which houses the Admissions Office"
+2013-05-24 05:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-24 06:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Dartmouth College Admissions Office
+2013-05-24 07:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Office of Admissions
+2013-05-24 08:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-24 09:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Admissions Office
+2013-05-24 10:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the location of the Dartmouth College Office of Admissions
+2013-05-24 11:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-05-24 12:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",North Park House
+2013-05-24 13:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the location of the Dartmouth College Admissions Office
+2013-05-24 14:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-24 15:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the location of the Dartmouth College Admissions Office
+2013-05-24 16:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This location is Dick's House, which houses the Dartmouth College Health Service"
+2013-05-24 17:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address is McNutt Hall, which houses the Admissions Office and Financial Aid Office at Dartmouth College"
+2013-05-24 18:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address corresponds to the Baker-Berry Library, which is the main library building at Dartmouth College"
+2013-05-24 19:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-24 20:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-24 21:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Office of Admissions
+2013-05-24 22:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College's Baker-Berry Library
+2013-05-24 23:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-25 00:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-25 01:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",The Dartmouth College Admissions Office
+2013-05-25 02:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-05-25 03:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-05-25 04:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-25 05:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-05-25 06:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-25 07:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Office of Admissions
+2013-05-25 08:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-25 09:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Dartmouth College Admissions Office
+2013-05-25 10:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Office of Admissions
+2013-05-25 11:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-25 12:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Office of Admissions
+2013-05-25 13:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-25 14:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-25 15:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address corresponds to McNutt Hall, which houses the Dartmouth College Admissions Office and the Registrar's Office"
+2013-05-25 16:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-05-25 17:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the location of the Dartmouth College Admissions Office
+2013-05-25 18:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Parkhurst Hall
+2013-05-25 19:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-25 20:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",McNutt Hall
+2013-05-25 21:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Office of Admissions
+2013-05-25 22:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address is the Dartmouth College Admissions Office, located within McNutt Hall"
+2013-05-25 23:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-26 00:00:00,2,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America",Dartmouth College's performing arts center
+2013-05-26 01:00:00,0,"Hopkins Center for the Arts, 4 East Wheelock Street, Hanover, NH 03755, United States of America","The Hopkins Center for the Arts, a performing arts center"
+2013-05-26 02:00:00,0,"20 North Park Street, Hanover, NH 03755, United States of America",McNutt Hall
+2013-05-26 03:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address is McNutt Hall, an academic building at Dartmouth College"
+2013-05-26 04:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address is McNutt Hall, which houses the Office of Admissions at Dartmouth College"
+2013-05-26 05:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-26 06:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-26 07:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-26 08:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-26 09:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",North Park House
+2013-05-26 10:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth Admissions Visitor Center
+2013-05-26 11:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-05-26 12:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is McNutt Hall
+2013-05-26 13:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-26 14:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Dartmouth College Admissions Office
+2013-05-26 15:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-26 16:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-26 17:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-26 18:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-05-26 19:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-26 20:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Dartmouth College Admissions Office
+2013-05-26 21:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",The Hopkins Center for the Arts
+2013-05-26 22:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the location of the Dartmouth College Admissions Office
+2013-05-27 00:00:00,0,"Black Family Visual Arts Center, 22 Lebanon Street, Hanover, NH 03755, United States of America",Black Family Visual Arts Center
+2013-05-27 01:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Admissions Office
+2013-05-27 02:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Office of Admissions at Dartmouth College
+2013-05-27 03:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-27 04:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the location of the Dartmouth College Admissions Office
+2013-05-27 05:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Dartmouth College Admissions Office
+2013-05-27 06:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-27 07:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-27 08:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address corresponds to McNutt Hall, an academic building at Dartmouth College"
+2013-05-27 09:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This address is McNutt Hall, which houses the Dartmouth College Office of Admissions"
+2013-05-27 10:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",McNutt Hall
+2013-05-27 11:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-05-27 12:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the Dartmouth College Office of Admissions
+2013-05-27 13:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Office of Admissions
+2013-05-27 14:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-27 15:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall at Dartmouth College is primarily a computer science research lab building
+2013-05-27 16:00:00,1,"Bartlett Hall, 5 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-27 17:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Admissions Office
+2013-05-27 18:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-05-27 19:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Office of Admissions
+2013-05-27 20:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-28 00:00:00,0,"South Main Street, Hanover, NH 03755, United States of America","McNutt Hall, home to the Tuck School of Business"
+2013-05-28 02:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",North Park House
+2013-05-28 03:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-28 04:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-28 05:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","This location is North Park House, which is a residential house at Dartmouth College"
+2013-05-28 06:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-28 07:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",The Dartmouth College Admissions Office
+2013-05-28 08:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-05-28 09:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dormitory
+2013-05-28 10:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-28 11:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America","North Park House, a dormitory"
+2013-05-28 12:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-28 13:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-05-28 14:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This address is the location of the Dartmouth Admissions Office
+2013-05-28 15:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Office of Admissions
+2013-05-28 16:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-28 17:00:00,2,"Jewel of India, 11 Lebanon Street, Hanover, NH 03755, United States of America","This location is not within Dartmouth College. Jewel of India is a restaurant on Lebanon Street in the town of Hanover, adjacent to the campus"
+2013-05-28 18:00:00,2,"18 North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-05-28 19:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",This location is the Dartmouth College Admissions Office
+2013-05-28 20:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Baker-Berry Library
+2013-05-28 21:00:00,0,"10 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-28 22:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-28 23:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-29 00:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-29 01:00:00,0,"18 North Park Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-05-29 02:00:00,0,"North Park Street, Hanover, NH 03755, United States of America","McNutt Hall, home to the Tuck School of Business"
+2013-05-29 03:00:00,0,"North Park Street, Hanover, NH 03755, United States of America",Kresge Physical Sciences Library

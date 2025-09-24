@@ -1,0 +1,177 @@
+times, activity inference,location,location_des
+2013-03-27 04:00:00,0,,
+2013-03-27 05:00:00,0,,
+2013-03-27 06:00:00,0,,
+2013-03-27 07:00:00,0,,
+2013-03-27 08:00:00,0,,
+2013-03-27 09:00:00,0,,
+2013-03-27 10:00:00,0,,
+2013-03-27 11:00:00,0,,
+2013-03-27 12:00:00,3,"Berry Sports Center Parking Lot, 6 South Park Street, Hanover, NH 03755, United States of America",It is a gym
+2013-03-27 13:00:00,3,"Dewey Field Road, Hanover, NH 03755, United States of America",Leverone Field House
+2013-03-27 14:00:00,0,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America",It is an academic building primarily housing life sciences laboratories and classrooms
+2013-03-27 15:00:00,0,"Maynard Street, Hanover, NH 03755, United States of America","This address is for Dartmouth College in Hanover, NH, not ""University of Dartmouth"".
+
+On Maynard Street, you would find student housing"
+2013-03-27 16:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",A Computer Science Lab
+2013-03-27 17:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-27 18:00:00,1,,
+2013-03-27 19:00:00,0,,
+2013-03-27 20:00:00,0,,
+2013-03-27 21:00:00,0,,
+2013-03-27 22:00:00,0,,
+2013-03-27 23:00:00,0,,
+2013-03-28 00:00:00,0,,
+2013-03-28 01:00:00,0,,
+2013-03-28 02:00:00,0,,
+2013-03-28 03:00:00,0,,
+2013-03-28 04:00:00,0,,
+2013-03-28 05:00:00,0,,
+2013-03-28 06:00:00,0,,
+2013-03-28 07:00:00,0,,
+2013-03-28 08:00:00,0,,
+2013-03-28 09:00:00,0,,
+2013-03-28 10:00:00,0,,
+2013-03-28 11:00:00,0,,
+2013-03-28 12:00:00,3,,
+2013-03-28 13:00:00,0,,
+2013-03-28 14:00:00,0,,
+2013-03-28 15:00:00,0,,
+2013-03-28 16:00:00,2,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America","It is the Class of 1978 Life Sciences Center, a laboratory building"
+2013-03-28 17:00:00,2,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-28 20:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-03-28 21:00:00,1,,
+2013-03-28 22:00:00,0,,
+2013-03-28 23:00:00,0,,
+2013-03-29 00:00:00,0,,
+2013-03-29 01:00:00,0,,
+2013-03-29 02:00:00,0,,
+2013-03-29 03:00:00,0,,
+2013-03-29 04:00:00,0,,
+2013-03-29 05:00:00,0,,
+2013-03-29 06:00:00,0,,
+2013-03-29 07:00:00,0,,
+2013-03-29 08:00:00,0,,
+2013-03-29 09:00:00,0,,
+2013-03-29 10:00:00,0,,
+2013-03-29 11:00:00,0,,
+2013-03-29 12:00:00,0,,
+2013-03-29 13:00:00,3,"78 College Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-03-29 14:00:00,0,"78 College Street, Hanover, NH 03755, United States of America",Dartmouth College Admissions Office
+2013-03-29 15:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building
+2013-03-29 16:00:00,0,"Maynard Street, Hanover, NH 03755, United States of America","This address is for Dartmouth College in Hanover, NH, not ""University of Dartmouth"".
+
+On Maynard Street, you would find student housing"
+2013-03-29 17:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-03-29 18:00:00,1,,
+2013-03-29 19:00:00,3,,
+2013-03-29 20:00:00,0,,
+2013-03-29 21:00:00,0,,
+2013-03-29 22:00:00,0,,
+2013-03-29 23:00:00,0,"Hanover Post Office, 50 South Main Street, Hanover, NH 03755, United States of America","It is the Hanover Post Office, a federal building located adjacent to the Dartmouth College campus, not a Dartmouth-owned facility like a classroom or dormitory"
+2013-03-30 00:00:00,0,"Davidson Pottery Studio, 2 Ledyard Lane, Lewiston, Norwich, VT 05055, United States of America","Davidson Pottery Studio is not a location within Dartmouth College. It is a private business located in Lewiston, Vermont, separate from the university's campus in Hanover, New Hampshire"
+2013-03-30 01:00:00,0,"The Works Café Hanover, 25 South Main Street, Hanover, NH 03755, United States of America","It is a cafe.
+
+Specifically, it's a private, off-campus cafe located in downtown Hanover, very close to Dartmouth College, but not a Dartmouth College facility itself"
+2013-03-30 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-03-30 03:00:00,3,,
+2013-03-30 04:00:00,0,,
+2013-03-30 05:00:00,0,,
+2013-03-30 06:00:00,0,,
+2013-03-30 07:00:00,0,,
+2013-03-30 08:00:00,0,,
+2013-03-30 09:00:00,0,,
+2013-03-30 10:00:00,0,,
+2013-03-30 11:00:00,0,,
+2013-03-30 12:00:00,3,"Glen Road Plaza, South Main Street, West Lebanon, Lebanon, NH 03784, United States of America","That address, Glen Road Plaza, is a commercial shopping center in West Lebanon, NH. It is not a part of Dartmouth College's campus. Therefore, it is not a specific room, building, or location within the university"
+2013-03-30 13:00:00,0,,
+2013-03-30 14:00:00,0,,
+2013-03-30 15:00:00,0,,
+2013-03-30 16:00:00,0,,
+2013-03-30 17:00:00,0,,
+2013-03-30 18:00:00,0,,
+2013-03-30 19:00:00,0,,
+2013-03-30 20:00:00,0,,
+2013-03-30 21:00:00,0,,
+2013-03-30 22:00:00,0,,
+2013-03-30 23:00:00,0,,
+2013-03-31 00:00:00,0,,
+2013-03-31 01:00:00,0,,
+2013-03-31 02:00:00,0,,
+2013-03-31 03:00:00,0,,
+2013-03-31 04:00:00,0,,
+2013-03-31 05:00:00,0,,
+2013-03-31 06:00:00,0,,
+2013-03-31 07:00:00,0,,
+2013-03-31 08:00:00,0,,
+2013-03-31 09:00:00,0,,
+2013-03-31 10:00:00,0,,
+2013-03-31 11:00:00,0,,
+2013-03-31 12:00:00,0,,
+2013-03-31 13:00:00,0,,
+2013-03-31 14:00:00,0,,
+2013-03-31 15:00:00,0,,
+2013-03-31 16:00:00,1,,
+2013-03-31 17:00:00,0,,
+2013-03-31 18:00:00,0,,
+2013-03-31 19:00:00,0,,
+2013-03-31 20:00:00,0,,
+2013-03-31 21:00:00,0,,
+2013-03-31 22:00:00,0,,
+2013-03-31 23:00:00,0,,
+2013-04-01 00:00:00,0,,
+2013-04-01 01:00:00,0,,
+2013-04-01 02:00:00,0,,
+2013-04-01 03:00:00,0,,
+2013-04-01 04:00:00,0,,
+2013-04-01 05:00:00,0,,
+2013-04-01 06:00:00,0,,
+2013-04-01 07:00:00,0,,
+2013-04-01 08:00:00,0,,
+2013-04-01 09:00:00,0,,
+2013-04-01 10:00:00,0,,
+2013-04-01 11:00:00,0,,
+2013-04-01 12:00:00,0,,
+2013-04-01 13:00:00,2,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-04-01 14:00:00,0,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America",It is a life sciences research and academic building
+2013-04-01 15:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-04-01 16:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-04-01 17:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-01 18:00:00,1,"5 Prospect Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-04-01 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-01 20:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-01 21:00:00,1,,
+2013-04-01 22:00:00,0,,
+2013-04-01 23:00:00,0,,
+2013-04-02 00:00:00,0,,
+2013-04-02 01:00:00,1,,
+2013-04-02 02:00:00,0,,
+2013-04-02 03:00:00,0,,
+2013-04-02 04:00:00,0,,
+2013-04-02 05:00:00,0,,
+2013-04-02 06:00:00,0,,
+2013-04-02 07:00:00,0,,
+2013-04-02 08:00:00,0,,
+2013-04-02 09:00:00,0,,
+2013-04-02 10:00:00,0,,
+2013-04-02 11:00:00,0,,
+2013-04-02 12:00:00,0,,
+2013-04-02 13:00:00,0,"Maynard Street, Hanover, NH 03755, United States of America","This address is for Dartmouth College in Hanover, NH, not ""University of Dartmouth"".
+
+On Maynard Street, you would find student housing"
+2013-04-02 14:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-02 15:00:00,2,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-04-02 16:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-04-02 17:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-04-02 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-02 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-02 20:00:00,1,"unnamed road, Lebanon, NH 03766, United States of America","That address is not located within Dartmouth College. Dartmouth College is in Hanover, NH, while this address is in Lebanon, NH, a neighboring town. Therefore, it is not a specific place or room on the Dartmouth campus"
+2013-04-02 21:00:00,0,,
+2013-04-02 22:00:00,0,,
+2013-04-02 23:00:00,0,,
+2013-04-03 00:00:00,0,,
+2013-04-03 01:00:00,0,,
+2013-04-03 02:00:00,0,,
+2013-04-03 03:00:00,0,,

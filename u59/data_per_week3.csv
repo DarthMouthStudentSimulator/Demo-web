@@ -1,0 +1,139 @@
+times, activity inference,location,location_des
+2013-04-10 04:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-10 05:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-10 06:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-10 07:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-10 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-10 09:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-10 10:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-10 11:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-10 12:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-10 13:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-10 14:00:00,1,"Class of 1978 Life Sciences Center, 78 College Street, Hanover, NH 03755, United States of America",It is a research laboratory building
+2013-04-10 15:00:00,0,"78 College Street, Hanover, NH 03755, United States of America","McNutt Hall, home to the Tuck School of Business"
+2013-04-10 16:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-10 17:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-10 18:00:00,1,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-10 19:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-11 17:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-11 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-11 19:00:00,3,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-11 20:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-11 21:00:00,3,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-11 22:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-11 23:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-12 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-12 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-12 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-12 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-12 04:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-12 05:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 06:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 07:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 09:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 10:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 11:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 12:00:00,2,"Reed Hall, 15 College Street, Hanover, NH 03755, United States of America",Classroom
+2013-04-12 13:00:00,0,"Reed Hall, 15 College Street, Hanover, NH 03755, United States of America",Classroom
+2013-04-12 14:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 16:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 17:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-04-12 18:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-12 19:00:00,3,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 20:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 21:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 22:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-12 23:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 04:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 05:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 07:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 09:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 10:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 11:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 12:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 13:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 14:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 16:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 17:00:00,3,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 20:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 21:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 22:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-13 23:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-14 00:00:00,1,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-14 01:00:00,1,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-14 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-14 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-14 04:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-14 05:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-14 06:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-14 07:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-14 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-14 09:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-14 10:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-14 11:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-14 12:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-14 13:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-14 14:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-14 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-14 16:00:00,0,"Hanover Park, 3 Lebanon Street, Hanover, NH 03755, United States of America",Hanover Park building
+2013-04-14 17:00:00,0,"Starbucks, 44 South Main Street, Hanover, NH 03755, United States of America",Cafe bordering the Dartmouth College campus
+2013-04-14 18:00:00,0,"Starbucks, 44 South Main Street, Hanover, NH 03755, United States of America",Cafe bordering the Dartmouth College campus
+2013-04-14 19:00:00,1,"1 Rope Ferry Road, Hanover, NH 03755, United States of America","This address is McNutt Hall, which houses the Admissions Office for Dartmouth College"
+2013-04-14 20:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-14 21:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-14 22:00:00,1,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-14 23:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-04-15 00:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-15 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-15 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-15 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-15 04:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-15 05:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-15 06:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-15 07:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-15 08:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-15 09:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-15 10:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-15 11:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-15 12:00:00,0,"Reed Hall, 15 College Street, Hanover, NH 03755, United States of America",Classroom
+2013-04-15 13:00:00,0,"Reed Hall, 15 College Street, Hanover, NH 03755, United States of America",Classroom
+2013-04-15 14:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-15 15:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-15 16:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-15 17:00:00,0,"Class of 1953 Commons, 6 Mass Row, Hanover, NH 03755, United States of America",A dining hall
+2013-04-15 18:00:00,0,"Fairchild Physical Sciences Center, 19 Fayerweather Hill Road, Hanover, NH 03755, United States of America","Fairchild Physical Sciences Center is an academic and research building housing departments, classrooms, and labs for the physical sciences"
+2013-04-15 19:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-15 20:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-15 21:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-15 22:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",The Boathouse
+2013-04-15 23:00:00,1,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is a Computer Science building containing classrooms and labs
+2013-04-16 00:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the Computer Science Department building at Dartmouth College
+2013-04-16 01:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is a Computer Science building containing classrooms and labs
+2013-04-16 02:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America","This location is Sudikoff Hall, the primary building for the Computer Science Department at Dartmouth College"
+2013-04-16 03:00:00,0,"Sudikoff Hall, 9 Maynard Street, Hanover, NH 03755, United States of America",Sudikoff Hall is the primary building for the Computer Science Department at Dartmouth College
+2013-04-16 04:00:00,1,"Morton Hall, 15 East Wheelock Street, Hanover, NH 03755, United States of America",Dormitory
+2013-04-16 15:00:00,0,"5 Prospect Street, Hanover, NH 03755, United States of America",Admissions Office
+2013-04-16 16:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-16 17:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-16 18:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-16 19:00:00,1,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Boathouse
+2013-04-16 20:00:00,2,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-16 21:00:00,0,,
+2013-04-16 22:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-16 23:00:00,1,"Maynard Street, Hanover, NH 03755, United States of America","This address is for Dartmouth College in Hanover, NH, not ""University of Dartmouth"".
+
+On Maynard Street, you would find student housing"
+2013-04-17 00:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-17 01:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-17 02:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse
+2013-04-17 03:00:00,0,"Dartmouth College, Boathouse Road, Hanover, NH 03755, United States of America",Dartmouth College Boathouse

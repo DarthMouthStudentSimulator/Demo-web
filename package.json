@@ -1,0 +1,15 @@
+{
+  "name": "ubicomp-demo",
+  "version": "1.0.0",
+  "description": "LLM Agent-Based Simulation of Student Activities and Mental Health",
+  "scripts": {
+    "build": "cd web && npm run build",
+    "deploy": "npm run build && gh-pages -d web/dist",
+    "predeploy": "npm run build",
+    "dev": "cd web && npm run dev",
+    "install-web": "cd web && npm install"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
